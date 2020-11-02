@@ -40,7 +40,7 @@ namespace linq.Torneo
                 }
                 Seleccion.Jugadores.Remove(jugadorExpulsado);
             }
-            catch (InvalidOperationException ex)
+            catch (InvalidOperationException)
             {
                 Console.WriteLine("No existe ese jugador para expulsarlo del equipo " + Seleccion.Nombre);
             }
