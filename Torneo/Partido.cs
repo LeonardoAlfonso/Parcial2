@@ -55,7 +55,7 @@ namespace linq.Torneo
             {
                 Console.WriteLine(ex.Message);
                 EquipoLocal.Goles -= EquipoLocal.Goles;
-                EquipoLocal.Goles -= EquipoLocal.Goles;
+                EquipoVisitante.Goles -= EquipoVisitante.Goles;
                 if (ex.NombreEquipo == EquipoLocal.Seleccion.Nombre)
                 {
                     EquipoVisitante.Goles += 3;
